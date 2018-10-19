@@ -33,7 +33,6 @@ def numberOfDivisors(n):
         div = div * (temp)
     if div == 1:
         div = 2
-    
     return div
 
 def sumOfDivisors(n):
