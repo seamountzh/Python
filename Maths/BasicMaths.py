@@ -31,6 +31,8 @@ def numberOfDivisors(n):
             temp += 1
             n = int(n / i)
         div = div * (temp)
+    if div == 1:
+        div = 2
     
     return div
 
